@@ -35,6 +35,16 @@ const routes = [
     name: 'ListApi',
     component: () => import('@/views/ListApi.vue')
   },
+  {
+    path: '/hget',
+    name: 'HTTPGET',
+    component: () => import('@/views/HGet.vue')
+  },
+  {
+    path: '/hpost',
+    name: 'HTTPPost',
+    component: () => import('@/views/HPost.vue')
+  },
 ]
 
 const router = createRouter({

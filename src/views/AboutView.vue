@@ -16,6 +16,30 @@
         <button>{{item2.first_name}}</button>
       </div>
     </td>
+    <td>
+      <h1>Member</h1>
+      <div v-for="item2 in user" :key="item2.id">
+        <p>{{item2.id}}--{{item2.email}}--{{item2.first_name}}</p>
+        <img :src="item2.avatar"/><br>
+        <button>{{item2.first_name}}</button>
+      </div>
+    </td>
+    <td>
+      <h1>Member</h1>
+      <div v-for="item2 in user" :key="item2.id">
+        <p>{{item2.id}}--{{item2.email}}--{{item2.first_name}}</p>
+        <img :src="item2.avatar"/><br>
+        <button>{{item2.first_name}}</button>
+      </div>
+    </td>
+    <td>
+      <h1>Member</h1>
+      <div v-for="item2 in user" :key="item2.id">
+        <p>{{item2.id}}--{{item2.email}}--{{item2.first_name}}</p>
+        <img :src="item2.avatar"/><br>
+        <button>{{item2.first_name}}</button>
+      </div>
+    </td>
     
   </div>
 </template>
@@ -38,11 +62,6 @@ export default {
     console.warn(member.data.data)
     this.user = member.data.data
   },
-  async showDetail() {
-    let show = await axios.get("https://reqres.in/api/users?page=2");
-    console.warn(show.data.data)
-    alert(JSON.stringify(show.data.data));
-  }
 }
 </script>
 

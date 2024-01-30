@@ -6,7 +6,20 @@
     <router-link to="/webframe">Iframe</router-link> |
     <router-link to="/learn">Learn</router-link> |
     <router-link to="/list">List</router-link> |
+    <router-link to="/hget">GET</router-link> |
+    <router-link to="/hpost">Post</router-link> |
   </nav>
+
+  <!-- <h1>Option Style</h1>
+  <button @click="onClick">{{counter}}</button>
+  <hr>
+  <Demo1RefAndReactive/>
+
+  <hr>
+  <Demo2CounterHook/>
+
+  <hr>
+  <Demo3LifeCycleHooks/> -->
   <router-view/>
 </template>
 
@@ -32,3 +45,23 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+<script>
+// import Demo1RefAndReactive from "./components/Demo1RefAndReactive"
+// import Demo2CounterHook from "./components/Demo2CounterHook"
+// import Demo3LifeCycleHooks from "./components/Demo3LifeCycleHooks"
+
+// export default {
+//   components:{Demo1RefAndReactive, Demo2CounterHook, Demo3LifeCycleHooks},
+  
+//   data() {
+//     return {
+//       counter: 0
+//     }
+//   },
+//   methods: {
+//     onClick(){
+//       this.counter++
+//     }
+//   },
+// }
+</script>
