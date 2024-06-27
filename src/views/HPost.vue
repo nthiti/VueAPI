@@ -65,7 +65,7 @@ export default {
     border-radius: 10px;
 }
 .btn {
-    background-color: aqua;
+    background-color:aqua;
     width: 150px;
     height: 30px;
     border-radius: 20px;

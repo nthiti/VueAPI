@@ -45,6 +45,11 @@ const routes = [
     name: 'HTTPPost',
     component: () => import('@/views/HPost.vue')
   },
+  {
+    path: '/listsearch',
+    name: 'ListSearch',
+    component: () => import('@/views/ListSearch.vue')
+  },
 ]
 
 const router = createRouter({

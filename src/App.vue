@@ -8,6 +8,7 @@
     <router-link to="/list">List</router-link> |
     <router-link to="/hget">GET</router-link> |
     <router-link to="/hpost">Post</router-link> |
+    <router-link to="/listsearch">ListSearch</router-link> |
   </nav>
 
   <!-- <h1>Option Style</h1>
